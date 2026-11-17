@@ -1,0 +1,58 @@
+{
+  "id": "https://malbhar.ct.ws/",
+  "name": "من البحر للمقلة - Sidi Bel Abbès",
+  "short_name": "من البحر للمقلة",
+  "description": "متجر السمك وفواكه البحر الطازجة في سيدي بلعباس. De la mer à la poêle.",
+  "start_url": "https://malbhar.ct.ws/index.php?utm_source=pwa",
+  "scope": "https://malbhar.ct.ws/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0a192f",
+  "theme_color": "#00B4DB",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["shopping", "food", "lifestyle"],
+  "prefer_related_applications": false,
+
+  "icons": [
+    { "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "المتجر - الأسماك",
+      "short_name": "المتجر",
+      "description": "تصفح الأسماك الطازجة",
+      "url": "https://malbhar.ct.ws/pshop.php",
+      "icons": [{ "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "العروض الخاصة",
+      "short_name": "عروض",
+      "description": "الباكات المخلطة بأسعار خاصة",
+      "url": "https://malbhar.ct.ws/soffert.php",
+      "icons": [{ "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "السلة",
+      "short_name": "السلة",
+      "description": "متابعة طلبك",
+      "url": "https://malbhar.ct.ws/cart.php",
+      "icons": [{ "src": "https://YOUR-USERNAME.github.io/malbhar-icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+
+  "share_target": {
+    "action": "https://malbhar.ct.ws/index.php",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
